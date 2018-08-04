@@ -21,6 +21,10 @@ if ($('#back-to-top').length) {
     });
 }
 
-$(document).ready(function(){
-    $('.tabs').tabs();
-});
+(function($){
+    $(function(){
+        
+      $('.parallax').parallax();
+  
+    }); // end of document ready
+  })(jQuery); // end of jQuery name space  
