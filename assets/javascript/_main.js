@@ -23,7 +23,7 @@ if ($('#back-to-top').length) {
 
 (function($){
     $(function(){
-        
+
       $('.parallax').parallax();
   
     }); // end of document ready
