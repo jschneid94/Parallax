@@ -7,12 +7,20 @@ body {
     color: #1498D5;
 }
 
+.about-me {
+    font-family: 'Open Sans', sans-serif;
+}
+
 /* BACKGROUND */
 .page-footer {
     background-color: #1498D5;
 }
 
-/* MARGIN STYLING */
+/* MARGIN/PADDING STYLING */
+.about-section {
+    height: 400px;
+}
+
 .margin-x {
     margin-left: auto;
     margin-right: auto;
@@ -30,6 +38,11 @@ body {
     margin: 25px 15px;
 }
 
+.padding-y {
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
 /* IMAGES */
 .portfolio-img {
     opacity: .85;
@@ -42,6 +55,11 @@ body {
 #logo-img {
     width: 300px;
     height: auto;
+}
+
+#profile-img {
+    padding: none;
+    width: 100%;
 }
 
 /* PARALLAX SIZING */
