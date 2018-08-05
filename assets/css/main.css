@@ -1,3 +1,18 @@
+/* FONT STYLING */
+body {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.project-header {
+    color: #1498D5;
+}
+
+/* BACKGROUND */
+.page-footer {
+    background-color: #1498D5;
+}
+
+/* MARGIN STYLING */
 .margin-x {
     margin-left: auto;
     margin-right: auto;
@@ -8,9 +23,14 @@
 }
 
 .margin-t  {
-    margin-top: 170px;
+    margin-top: 185px;
 }
 
+.contact-btn {
+    margin: 25px 15px;
+}
+
+/* IMAGES */
 .portfolio-img {
     opacity: .85;
 }
@@ -19,8 +39,18 @@
     opacity: 1;
 }
 
-.contact-btn {
-    margin: 25px 15px;
+#logo-img {
+    width: 300px;
+    height: auto;
+}
+
+/* PARALLAX SIZING */
+.parallax-container {
+    height: 620px;
+}
+
+.parallax-footer {
+    height: 510px;
 }
 
 /* BACK-TO-TOP BUTTON */
@@ -33,7 +63,7 @@
     height: 32px;
     text-align: center;
     line-height: 30px;
-    background-color: #1D6C97;
+    background-color: #1498D5;
     color: white;
     cursor: pointer;
     border: 0;
@@ -42,7 +72,7 @@
     opacity: 0;
 }
 #back-to-top:hover {
-    background-color: #283B42;
+    background-color: #1A758E;
 }
 #back-to-top.show {
     opacity: 1;
